@@ -5,7 +5,7 @@ import { Outlet } from "react-router-dom";
 const AppLayout = () => {
   return (
     <div>
-      <main className="min-h-screen ">
+      <main className="min-h-screen py-4 px-6  ">
         <Header />
         <Outlet />
       </main>

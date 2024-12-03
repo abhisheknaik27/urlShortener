@@ -16,7 +16,7 @@ const Header = () => {
   const navigate = useNavigate();
   const user = true;
   return (
-    <nav className="py-4 px-6 flex justify-between items-center">
+    <nav className="flex justify-between items-center">
       <Link to="/">
         <img src="/logo.png" alt="url-shortner-logo" className="h-12 w-12" />
       </Link>

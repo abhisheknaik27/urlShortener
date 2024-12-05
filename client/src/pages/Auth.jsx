@@ -1,8 +1,8 @@
 import React from "react";
 import { useSearchParams } from "react-router-dom";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import Login from "../components/Login";
-import Signup from "../components/Signup";
+import Login from "../components/authentication/Login";
+import Signup from "../components/authentication/Signup";
 const Auth = () => {
   const [searchParams] = useSearchParams();
   return (

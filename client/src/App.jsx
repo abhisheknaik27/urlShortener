@@ -7,7 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Auth from "./pages/Auth";
 import Link from "./pages/Link";
 import RedirectLink from "./pages/RedirectLink";
-import urlProvider from "./context";
+import UrlProvider from "./context";
 const router = createBrowserRouter([
   {
     element: <AppLayout />,
@@ -38,9 +38,9 @@ const router = createBrowserRouter([
 
 const App = () => {
   return (
-    <urlProvider>
+    <UrlProvider>
       <RouterProvider router={router} />
-    </urlProvider>
+    </UrlProvider>
   );
 };
 

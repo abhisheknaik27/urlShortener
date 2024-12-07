@@ -1,9 +1,9 @@
 import { Copy, Download, Trash } from "lucide-react";
 import React from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 import useFetch from "@/hooks/useFetch";
-import { deleteUrl } from "../../db/apiUrls";
+import { deleteUrl } from "../../../db/apiUrls";
 import { BeatLoader } from "react-spinners";
 
 const LinkCard = ({ url, fetchUrls }) => {

@@ -9,8 +9,8 @@ import { UrlState } from "@/context";
 import useFetch from "@/hooks/useFetch";
 import { getClicksForUrls } from "../../db/apiClicks";
 import Error from "@/components/authentication/Error";
-import LinkCard from "@/components/LinkCard";
-import CreateLink from "@/components/CreateLink";
+import LinkCard from "@/components/dashboard/LinkCard";
+import CreateLink from "@/components/dashboard/CreateLink";
 
 const Dashboard = () => {
   const [searchQuery, setSearchQuery] = useState("");

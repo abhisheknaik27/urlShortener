@@ -9,14 +9,14 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Card } from "./ui/card";
-import Error from "./authentication/Error";
+import { Button } from "../ui/button";
+import { Input } from "../ui/input";
+import { Card } from "../ui/card";
+import Error from "../authentication/Error";
 import * as yup from "yup";
 import { QRCode } from "react-qrcode-logo";
 import useFetch from "@/hooks/useFetch";
-import { createUrl } from "../../db/apiUrls";
+import { createUrl } from "../../../db/apiUrls";
 import { BeatLoader } from "react-spinners";
 
 const CreateLink = () => {

@@ -15,6 +15,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Location from "@/components/stats/Location";
+import Devices from "@/components/stats/Devices";
 const Link = () => {
   const { id } = useParams();
   const { user } = UrlState();
@@ -134,9 +136,9 @@ const Link = () => {
               </Card>
 
               <CardTitle>Location Data</CardTitle>
-              {/* <Location stats={stats} /> */}
+              <Location stats={stats} />
               <CardTitle>Devices</CardTitle>
-              {/* <Devices stats={stats} /> */}
+              <Devices stats={stats} />
             </CardContent>
           ) : (
             <CardContent>
